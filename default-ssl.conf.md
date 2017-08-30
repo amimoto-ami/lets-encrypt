@@ -1,5 +1,6 @@
 # default-ssl.conf
 
+``` bash
 server {
     listen      443 ssl http2;
     server_name _;
@@ -39,3 +40,4 @@ server {
         root   /usr/share/nginx/html;
     }
 }
+```

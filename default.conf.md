@@ -1,6 +1,6 @@
 # default.conf
 
-```
+``` bash
 server {
     listen      80 default;
     server_name _;
